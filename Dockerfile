@@ -7,6 +7,8 @@ RUN set -x \
     && chmod a+rx /usr/local/bin/youtube-dl \
     && youtube-dl --version
 
+VOLUME /config /downloads
+
 # Configure cron
 COPY crontab /etc/cron/crontab
 

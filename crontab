@@ -1,4 +1,4 @@
-* * * * * youtube-dl --version >> /dev/stdout 2>&1
+* * * * * youtube-dl --config-location /config/youtube-dl.conf >> /dev/stdout 2>&1
 
 
 
