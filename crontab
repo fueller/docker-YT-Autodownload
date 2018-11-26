@@ -1,4 +1,7 @@
 * * * * * /usr/bin/flock -n /tmp/ytdownload.lock youtube-dl --config-location /config/youtube-dl.conf >> /dev/stdout 2>&1
+0 0 * * 0 youtube-dl -U >> /dev/stdout 2>&1
+
+
 
 
 
